@@ -17,3 +17,4 @@
 
 
 # Imagens 📷
+Ainda não possuo imagens, irei disponibilizar brevemente.
