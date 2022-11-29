@@ -1,16 +1,19 @@
-# pomodoro
+# Olá, seja bem vindo.👋
 
-A new Flutter project.
+# Curso
+💻 App desenvolvido durante o curso de FLUTTER da COD3R instruído pelo professor Leonardo Moura Leitão. Aqui você poderá ver minhas competências e o que aprendi durante o período de aprendizado no curso. Espero que goste!
 
-## Getting Started
+# Escopo
+📚 Neste projeto, eu vou ter a oportunidade de aprender a criar um App com funcionalidades avançadas utilizando o Framework Flutter. Para Gestão de Estado local e global irei usar o MobX. 
 
-This project is a starting point for a Flutter application.
+# Foco
+😊 Este projeto é focado no desenvolvimento de um App POMODORO com foco no aprendizado em MobX, Responsividade e Gerenciamento de Estado.
 
-A few resources to get you started if this is your first Flutter project:
+# Professores e suas redes sociais 😉
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Leonardo Moura na Udemy: https://www.udemy.com/user/leonardomouraleitao/
+* Leonardo Moura no Linkedin: https://www.linkedin.com/in/leonardo-leit%C3%A3o-8a5813186/
+* Curso: https://www.udemy.com/course/curso-flutter/
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Imagens 📷
