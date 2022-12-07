@@ -18,16 +18,14 @@ class CronometroBotao extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
+        shape: CircleBorder(),
         backgroundColor: Colors.black,
-        padding: EdgeInsets.symmetric(horizontal: 15, vertical: 8),
+        padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
       ),
       onPressed: click,
       child: Row(
         children: [
-          Padding(
-            padding: const EdgeInsets.only(right: 10),
-            child: Icon(icone, size: 30),
-          ),
+          Icon(icone, size: 40),
           Text(
             texto,
             style: TextStyle(fontSize: 20, fontFamily: 'Montserrat', fontWeight: FontWeight.w700),

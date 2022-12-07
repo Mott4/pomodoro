@@ -50,7 +50,7 @@ class Cronometro extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 20),
                       child: CronometroBotao(
-                        texto: 'Iniciar',
+                        texto: '', // iniciar
                         icone: Icons.play_arrow,
                         click: store.iniciar,
                       ),
@@ -59,18 +59,15 @@ class Cronometro extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 20),
                       child: CronometroBotao(
-                        texto: 'Parar',
+                        texto: '', // Parar
                         icone: Icons.stop,
                         click: store.parar,
                       ),
                     ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 20),
-                    child: CronometroBotao(
-                      texto: 'Reiniciar',
-                      icone: Icons.refresh,
-                      click: store.reiniciar,
-                    ),
+                  CronometroBotao(
+                    texto: '', // Reiniciar
+                    icone: Icons.refresh,
+                    click: store.reiniciar,
                   ),
                 ],
               ),

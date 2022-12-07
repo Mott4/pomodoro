@@ -41,7 +41,7 @@ abstract class _PomodoroStore with Store {
   @action
   void iniciar() {
     iniciado = true;
-    cronometro = Timer.periodic(Duration(seconds: 50), (timer) {
+    cronometro = Timer.periodic(Duration(seconds: 1), (timer) {
       if (minutos == 0 && segundos == 0) {
         _trocarTipoIntervalo();
       } else if (segundos == 0) {
@@ -100,9 +100,7 @@ abstract class _PomodoroStore with Store {
   @action
   void decrementarTempoDescanso() {
     // para impedir de colocar valor negativo no timer. Abaixo:
-    // </>
     if (tempoDescanso > 1) {
-      // </>
       tempoDescanso--;
       if (estaTrabalhando()) {
         reiniciar();
