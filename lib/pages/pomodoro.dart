@@ -29,14 +29,20 @@ class PomodoroPage extends StatelessWidget {
                     EntradaTempo(
                       titulo: 'Trabalho',
                       valor: store.tempoTrabalho,
-                      inc: store.incrementarTempoTrabalho,
-                      dec: store.decrementarTempoTrabalho,
+
+                      //======================================================================================//
+                      // Teste para caso o cronometro estiver iniciado e estiver trabalhando/descansando,     //
+                      // os botões irão ficar transparentes e não poderemos utiliza-los enquanto o cronometro //
+                      // estiver rodando.                                                                     //
+                      //======================================================================================//
+                      inc: store.iniciado && store.estaTrabalhando() ? null : store.incrementarTempoTrabalho,
+                      dec: store.iniciado && store.estaTrabalhando() ? null : store.decrementarTempoTrabalho,
                     ),
                     EntradaTempo(
                       titulo: 'Descanso',
                       valor: store.tempoDescanso,
-                      inc: store.incrementarTempoDescanso,
-                      dec: store.decrementarTempoDescanso,
+                      inc: store.iniciado && store.estaDescansando() ? null : store.incrementarTempoDescanso,
+                      dec: store.iniciado && store.estaDescansando() ? null : store.decrementarTempoDescanso,
                     ),
                   ],
                 ),
